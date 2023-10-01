@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: #A4DEE6;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 30px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+.nav ul li a {
+    font-size: 24px;
+    padding: 15px;
+    text-decoration: none;
+}
+.searchBar {
+    padding-top: 40px;
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+}
+form {
+    
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+form input{
+    background: #D9ECF2;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    background: #A4DEE6;
+    cursor: pointer;
+}

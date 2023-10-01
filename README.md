@@ -1,2 +1,2 @@
-this repo is for a school wesite project that I willbe working on anIwillbe using the following languages
-HTML,CSS,and JAVASCRIPT  to develpothe website for the school.
+This repo is for a school wesite project that I will be working on and I will be using 
+HTML,CSS,and JAVASCRIPT  to develop  the website for the school.
