@@ -9,26 +9,45 @@
 </head>
 <body>
     <div class="container"> <!--this is the main container for everything-->
-        <div class="header">
+        <div class="header"> <!--thi is header thatcontain the logo and the navigations-->
             <div class="logo">
                 <h1>NAHDAH</h1>
             </div>
             <div class="nav">
             <ul>
-                <li><a href="">Academics</a></li>
-                <li><a href="">Admission</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">News & Events</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admission</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">News & Events</a></li>
             </ul>
             </div>
         </div>
-        <div class="searchBar">
+        <div class="searchBar">  <!-- this is the search tags-->
             <form action="/search-results.html" method="GET">
                 <input type="text" name="q" placeholder="Search...">
                 <button type="submit">Search</button>
-              </form>
-              
+            </form>      
+        </div>
+        <div class="image-container"> <!-- this is the image slider tags-->
+            <div class="welcome">
+                <h1>Welcome to Nahdah Islamic Junior High School</h1>
+            </div>
+            <div class="slide-wrapper">
+                <div class="slider">
+                    <img id="slide1" src="images/1.jpg" alt="first 3D image">
+                    <img id="slide2" src="images/2.jpg" alt="second 3D image">
+                    <img id="slide3" src="images/3.jpg" alt="third 3D image">
+                    <img id="slide4" src="images/4.jpg" alt="fourth 3D image">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide1"></a>
+                    <a href="#slide2"></a>
+                    <a href="#slide3"></a>
+                    <a href="#slide4"></a>
+                </div>
+
+            </div>
         </div>
     </div>
 </body>
