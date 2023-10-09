@@ -38,17 +38,29 @@ form {
 }
 form input{
     background: #D9ECF2;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     flex: 1;
     border: none;
     outline: none;
 }
+input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 55px;
+    font-size: 20px;
+}
+  
 form button{
     padding: 10px 50px;
     border: none;
     outline: none;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
     letter-spacing: 1px;
     background: #A4DEE6;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     cursor: pointer;
 }
 /* this is the style for the image slider*/
@@ -126,4 +138,62 @@ form button{
 }
 .slider-nav a:hover {
     background-color: white;
+}
+/* mission section*/
+.mission-h2 {
+    text-align: center;
+    padding: 35px;
+    text-decoration: underline yellow;
+
+}
+.mission {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.mission-para p{
+    text-align: left;
+    padding: 50px;
+}
+.mission-image img {
+    margin-right:45px;
+    max-width: 38rem;
+    border-radius: 10px;
+}
+.mission-para button {
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+#Locat {
+    background-color: #A4DEE6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+/*this is the testimonias section */
+.testimo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.testigro {
+    background-color: rgb(29, 29, 95);
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    
+}
+.testimo-image img {
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px 100px;
 }
